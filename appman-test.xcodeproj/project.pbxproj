@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26BEB77F67ABA8857551C1D4 /* Pods_appman_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A14EA20208B9A301CF3D854 /* Pods_appman_test.framework */; };
+		9E9CD79281484935D0507803 /* Pods_appman_test_appman_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8016F5A9EE26A2EE9E9BB55 /* Pods_appman_test_appman_testUITests.framework */; };
+		CAE67204C8F258D4EFC59728 /* Pods_appman_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F5761B5C495A828BC2E9C4 /* Pods_appman_testTests.framework */; };
+		EA44AC1B26B99CB0002C5A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC1A26B99CB0002C5A5D /* AppDelegate.swift */; };
+		EA44AC1D26B99CB0002C5A5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC1C26B99CB0002C5A5D /* SceneDelegate.swift */; };
+		EA44AC2226B99CB0002C5A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA44AC2026B99CB0002C5A5D /* Main.storyboard */; };
+		EA44AC2426B99CB2002C5A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA44AC2326B99CB2002C5A5D /* Assets.xcassets */; };
+		EA44AC2726B99CB2002C5A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA44AC2526B99CB2002C5A5D /* LaunchScreen.storyboard */; };
+		EA44AC3226B99CB3002C5A5D /* appman_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC3126B99CB3002C5A5D /* appman_testTests.swift */; };
+		EA44AC3D26B99CB3002C5A5D /* appman_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC3C26B99CB3002C5A5D /* appman_testUITests.swift */; };
+		EA44AC5326B99E23002C5A5D /* MyPokedexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC4E26B99E23002C5A5D /* MyPokedexViewModel.swift */; };
+		EA44AC5426B99E23002C5A5D /* MyPokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC4F26B99E23002C5A5D /* MyPokedexViewController.swift */; };
+		EA44AC5526B99E23002C5A5D /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC5126B99E23002C5A5D /* CardListViewController.swift */; };
+		EA44AC5626B99E23002C5A5D /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC5226B99E23002C5A5D /* CardListViewModel.swift */; };
+		EA44AC5E26B9A019002C5A5D /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC5D26B9A019002C5A5D /* CardListCell.swift */; };
+		EA44AC6026B9A03A002C5A5D /* CardCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC5F26B9A03A002C5A5D /* CardCellViewModel.swift */; };
+		EA44AC6226B9A044002C5A5D /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA44AC6126B9A044002C5A5D /* CardListCell.xib */; };
+		EA44AC6526B9A182002C5A5D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC6426B9A182002C5A5D /* UIColor+Extension.swift */; };
+		EA44AC6726B9A6BF002C5A5D /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC6626B9A6BF002C5A5D /* UIImage+Extension.swift */; };
+		EA44AC6C26B9B3DD002C5A5D /* CardObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC6B26B9B3DD002C5A5D /* CardObject.swift */; };
+		EA44AC6E26B9B482002C5A5D /* AttacksObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC6D26B9B482002C5A5D /* AttacksObject.swift */; };
+		EA44AC7026B9B4DD002C5A5D /* WeaknessesObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC6F26B9B4DD002C5A5D /* WeaknessesObject.swift */; };
+		EA44AC7526B9B638002C5A5D /* Cards.json in Resources */ = {isa = PBXBuildFile; fileRef = EA44AC7426B9B638002C5A5D /* Cards.json */; };
+		EA44AC7726B9B6AA002C5A5D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC7626B9B6AA002C5A5D /* NetworkManager.swift */; };
+		EA44AC7926B9B6F5002C5A5D /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC7826B9B6F5002C5A5D /* Networkable.swift */; };
+		EA44AC7B26B9B739002C5A5D /* NetworkActivityChangeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC7A26B9B739002C5A5D /* NetworkActivityChangeType.swift */; };
+		EA44AC7E26B9B849002C5A5D /* CardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC7D26B9B849002C5A5D /* CardProvider.swift */; };
+		EA44AC8026B9B91D002C5A5D /* CardAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC7F26B9B91D002C5A5D /* CardAPIs.swift */; };
+		EA44AC8226B9BCF1002C5A5D /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC8126B9BCF1002C5A5D /* ThreadHelper.swift */; };
+		EA44AC8426B9C0D7002C5A5D /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC8326B9C0D7002C5A5D /* Data+Extension.swift */; };
+		EA44AC8C26BA6F32002C5A5D /* ScoreBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC8B26BA6F32002C5A5D /* ScoreBarView.swift */; };
+		EA44AC8E26BA6F3A002C5A5D /* ScoreBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC8D26BA6F3A002C5A5D /* ScoreBarViewModel.swift */; };
+		EA44AC9026BA6F44002C5A5D /* ScoreBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA44AC8F26BA6F44002C5A5D /* ScoreBarView.xib */; };
+		EA44AC9326BA7FE9002C5A5D /* ValueObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44AC9226BA7FE9002C5A5D /* ValueObject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA44AC2E26B99CB3002C5A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA44AC0F26B99CB0002C5A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA44AC1626B99CB0002C5A5D;
+			remoteInfo = "appman-test";
+		};
+		EA44AC3926B99CB3002C5A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA44AC0F26B99CB0002C5A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA44AC1626B99CB0002C5A5D;
+			remoteInfo = "appman-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F48E2169F887FE01AE4BE01 /* Pods-appman-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appman-test.debug.xcconfig"; path = "Target Support Files/Pods-appman-test/Pods-appman-test.debug.xcconfig"; sourceTree = "<group>"; };
+		23F5761B5C495A828BC2E9C4 /* Pods_appman_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appman_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A2F9473A705262C6CC467C /* Pods-appman-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appman-testTests.debug.xcconfig"; path = "Target Support Files/Pods-appman-testTests/Pods-appman-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		478926B6B98E69B1465CF44D /* Pods-appman-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appman-test.release.xcconfig"; path = "Target Support Files/Pods-appman-test/Pods-appman-test.release.xcconfig"; sourceTree = "<group>"; };
+		5A14EA20208B9A301CF3D854 /* Pods_appman_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appman_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDAEABDB5861A868090486B /* Pods-appman-test-appman-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appman-test-appman-testUITests.debug.xcconfig"; path = "Target Support Files/Pods-appman-test-appman-testUITests/Pods-appman-test-appman-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7660B8C466F43E777890AE1C /* Pods-appman-test-appman-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appman-test-appman-testUITests.release.xcconfig"; path = "Target Support Files/Pods-appman-test-appman-testUITests/Pods-appman-test-appman-testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8016F5A9EE26A2EE9E9BB55 /* Pods_appman_test_appman_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appman_test_appman_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45767DFA3ABD34218350635 /* Pods-appman-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appman-testTests.release.xcconfig"; path = "Target Support Files/Pods-appman-testTests/Pods-appman-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA44AC1726B99CB0002C5A5D /* appman-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appman-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA44AC1A26B99CB0002C5A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA44AC1C26B99CB0002C5A5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA44AC2126B99CB0002C5A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA44AC2326B99CB2002C5A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA44AC2626B99CB2002C5A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA44AC2826B99CB2002C5A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA44AC2D26B99CB3002C5A5D /* appman-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appman-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA44AC3126B99CB3002C5A5D /* appman_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appman_testTests.swift; sourceTree = "<group>"; };
+		EA44AC3326B99CB3002C5A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA44AC3826B99CB3002C5A5D /* appman-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appman-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA44AC3C26B99CB3002C5A5D /* appman_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appman_testUITests.swift; sourceTree = "<group>"; };
+		EA44AC3E26B99CB3002C5A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA44AC4E26B99E23002C5A5D /* MyPokedexViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPokedexViewModel.swift; sourceTree = "<group>"; };
+		EA44AC4F26B99E23002C5A5D /* MyPokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPokedexViewController.swift; sourceTree = "<group>"; };
+		EA44AC5126B99E23002C5A5D /* CardListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
+		EA44AC5226B99E23002C5A5D /* CardListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		EA44AC5B26B99F2A002C5A5D /* Appman-Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Appman-Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA44AC5D26B9A019002C5A5D /* CardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
+		EA44AC5F26B9A03A002C5A5D /* CardCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCellViewModel.swift; sourceTree = "<group>"; };
+		EA44AC6126B9A044002C5A5D /* CardListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardListCell.xib; sourceTree = "<group>"; };
+		EA44AC6426B9A182002C5A5D /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		EA44AC6626B9A6BF002C5A5D /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		EA44AC6B26B9B3DD002C5A5D /* CardObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardObject.swift; sourceTree = "<group>"; };
+		EA44AC6D26B9B482002C5A5D /* AttacksObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttacksObject.swift; sourceTree = "<group>"; };
+		EA44AC6F26B9B4DD002C5A5D /* WeaknessesObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaknessesObject.swift; sourceTree = "<group>"; };
+		EA44AC7426B9B638002C5A5D /* Cards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Cards.json; sourceTree = "<group>"; };
+		EA44AC7626B9B6AA002C5A5D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EA44AC7826B9B6F5002C5A5D /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
+		EA44AC7A26B9B739002C5A5D /* NetworkActivityChangeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkActivityChangeType.swift; sourceTree = "<group>"; };
+		EA44AC7D26B9B849002C5A5D /* CardProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProvider.swift; sourceTree = "<group>"; };
+		EA44AC7F26B9B91D002C5A5D /* CardAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAPIs.swift; sourceTree = "<group>"; };
+		EA44AC8126B9BCF1002C5A5D /* ThreadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
+		EA44AC8326B9C0D7002C5A5D /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		EA44AC8B26BA6F32002C5A5D /* ScoreBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBarView.swift; sourceTree = "<group>"; };
+		EA44AC8D26BA6F3A002C5A5D /* ScoreBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBarViewModel.swift; sourceTree = "<group>"; };
+		EA44AC8F26BA6F44002C5A5D /* ScoreBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScoreBarView.xib; sourceTree = "<group>"; };
+		EA44AC9226BA7FE9002C5A5D /* ValueObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueObject.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA44AC1426B99CB0002C5A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BEB77F67ABA8857551C1D4 /* Pods_appman_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA44AC2A26B99CB3002C5A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE67204C8F258D4EFC59728 /* Pods_appman_testTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA44AC3526B99CB3002C5A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9CD79281484935D0507803 /* Pods_appman_test_appman_testUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F30CE5303454D91D895BA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F48E2169F887FE01AE4BE01 /* Pods-appman-test.debug.xcconfig */,
+				478926B6B98E69B1465CF44D /* Pods-appman-test.release.xcconfig */,
+				6DDAEABDB5861A868090486B /* Pods-appman-test-appman-testUITests.debug.xcconfig */,
+				7660B8C466F43E777890AE1C /* Pods-appman-test-appman-testUITests.release.xcconfig */,
+				39A2F9473A705262C6CC467C /* Pods-appman-testTests.debug.xcconfig */,
+				D45767DFA3ABD34218350635 /* Pods-appman-testTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8F3CE863915FF80EAEA170A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A14EA20208B9A301CF3D854 /* Pods_appman_test.framework */,
+				A8016F5A9EE26A2EE9E9BB55 /* Pods_appman_test_appman_testUITests.framework */,
+				23F5761B5C495A828BC2E9C4 /* Pods_appman_testTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA44AC0E26B99CB0002C5A5D = {
+			isa = PBXGroup;
+			children = (
+				EA44AC1926B99CB0002C5A5D /* appman-test */,
+				EA44AC3026B99CB3002C5A5D /* appman-testTests */,
+				EA44AC3B26B99CB3002C5A5D /* appman-testUITests */,
+				EA44AC1826B99CB0002C5A5D /* Products */,
+				01F30CE5303454D91D895BA7 /* Pods */,
+				D8F3CE863915FF80EAEA170A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA44AC1826B99CB0002C5A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC1726B99CB0002C5A5D /* appman-test.app */,
+				EA44AC2D26B99CB3002C5A5D /* appman-testTests.xctest */,
+				EA44AC3826B99CB3002C5A5D /* appman-testUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA44AC1926B99CB0002C5A5D /* appman-test */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC5726B99E52002C5A5D /* Applications */,
+				EA44AC4C26B99E23002C5A5D /* Controllers */,
+				EA44AC4B26B99E23002C5A5D /* Views */,
+				EA44AC4A26B99E23002C5A5D /* Models */,
+				EA44AC5A26B99EB3002C5A5D /* Utils */,
+				EA44AC5826B99E83002C5A5D /* Resources */,
+				EA44AC2826B99CB2002C5A5D /* Info.plist */,
+			);
+			path = "appman-test";
+			sourceTree = "<group>";
+		};
+		EA44AC3026B99CB3002C5A5D /* appman-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC3126B99CB3002C5A5D /* appman_testTests.swift */,
+				EA44AC3326B99CB3002C5A5D /* Info.plist */,
+			);
+			path = "appman-testTests";
+			sourceTree = "<group>";
+		};
+		EA44AC3B26B99CB3002C5A5D /* appman-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC3C26B99CB3002C5A5D /* appman_testUITests.swift */,
+				EA44AC3E26B99CB3002C5A5D /* Info.plist */,
+			);
+			path = "appman-testUITests";
+			sourceTree = "<group>";
+		};
+		EA44AC4A26B99E23002C5A5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC7126B9B5FA002C5A5D /* APIs */,
+				EA44AC7C26B9B82E002C5A5D /* Providers */,
+				EA44AC6A26B9B3D1002C5A5D /* ModelObjects */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA44AC4B26B99E23002C5A5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC8A26BA6EE8002C5A5D /* ScoreBarView */,
+				EA44AC5C26B9A007002C5A5D /* CardListCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA44AC4C26B99E23002C5A5D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC4D26B99E23002C5A5D /* MyPokedex */,
+				EA44AC5026B99E23002C5A5D /* CardList */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA44AC4D26B99E23002C5A5D /* MyPokedex */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC4F26B99E23002C5A5D /* MyPokedexViewController.swift */,
+				EA44AC4E26B99E23002C5A5D /* MyPokedexViewModel.swift */,
+			);
+			path = MyPokedex;
+			sourceTree = "<group>";
+		};
+		EA44AC5026B99E23002C5A5D /* CardList */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC5126B99E23002C5A5D /* CardListViewController.swift */,
+				EA44AC5226B99E23002C5A5D /* CardListViewModel.swift */,
+			);
+			path = CardList;
+			sourceTree = "<group>";
+		};
+		EA44AC5726B99E52002C5A5D /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC1A26B99CB0002C5A5D /* AppDelegate.swift */,
+				EA44AC1C26B99CB0002C5A5D /* SceneDelegate.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		EA44AC5826B99E83002C5A5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC2326B99CB2002C5A5D /* Assets.xcassets */,
+				EA44AC5926B99E9D002C5A5D /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EA44AC5926B99E9D002C5A5D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC2026B99CB0002C5A5D /* Main.storyboard */,
+				EA44AC2526B99CB2002C5A5D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EA44AC5A26B99EB3002C5A5D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC5B26B99F2A002C5A5D /* Appman-Test-Bridging-Header.h */,
+				EA44AC6326B9A16F002C5A5D /* Extensions */,
+				EA44AC8126B9BCF1002C5A5D /* ThreadHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EA44AC5C26B9A007002C5A5D /* CardListCell */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC5D26B9A019002C5A5D /* CardListCell.swift */,
+				EA44AC5F26B9A03A002C5A5D /* CardCellViewModel.swift */,
+				EA44AC6126B9A044002C5A5D /* CardListCell.xib */,
+			);
+			path = CardListCell;
+			sourceTree = "<group>";
+		};
+		EA44AC6326B9A16F002C5A5D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC6426B9A182002C5A5D /* UIColor+Extension.swift */,
+				EA44AC6626B9A6BF002C5A5D /* UIImage+Extension.swift */,
+				EA44AC8326B9C0D7002C5A5D /* Data+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EA44AC6A26B9B3D1002C5A5D /* ModelObjects */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC6B26B9B3DD002C5A5D /* CardObject.swift */,
+				EA44AC6D26B9B482002C5A5D /* AttacksObject.swift */,
+				EA44AC6F26B9B4DD002C5A5D /* WeaknessesObject.swift */,
+				EA44AC9226BA7FE9002C5A5D /* ValueObject.swift */,
+			);
+			path = ModelObjects;
+			sourceTree = "<group>";
+		};
+		EA44AC7126B9B5FA002C5A5D /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC7626B9B6AA002C5A5D /* NetworkManager.swift */,
+				EA44AC7826B9B6F5002C5A5D /* Networkable.swift */,
+				EA44AC7A26B9B739002C5A5D /* NetworkActivityChangeType.swift */,
+				EA44AC7326B9B616002C5A5D /* Targets */,
+				EA44AC7226B9B600002C5A5D /* MockDatas */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		EA44AC7226B9B600002C5A5D /* MockDatas */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC7426B9B638002C5A5D /* Cards.json */,
+			);
+			path = MockDatas;
+			sourceTree = "<group>";
+		};
+		EA44AC7326B9B616002C5A5D /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC7F26B9B91D002C5A5D /* CardAPIs.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		EA44AC7C26B9B82E002C5A5D /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC7D26B9B849002C5A5D /* CardProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		EA44AC8A26BA6EE8002C5A5D /* ScoreBarView */ = {
+			isa = PBXGroup;
+			children = (
+				EA44AC8B26BA6F32002C5A5D /* ScoreBarView.swift */,
+				EA44AC8D26BA6F3A002C5A5D /* ScoreBarViewModel.swift */,
+				EA44AC8F26BA6F44002C5A5D /* ScoreBarView.xib */,
+			);
+			path = ScoreBarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA44AC1626B99CB0002C5A5D /* appman-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA44AC4126B99CB3002C5A5D /* Build configuration list for PBXNativeTarget "appman-test" */;
+			buildPhases = (
+				060BD13F9ECCB33775F1C88F /* [CP] Check Pods Manifest.lock */,
+				EA44AC1326B99CB0002C5A5D /* Sources */,
+				EA44AC1426B99CB0002C5A5D /* Frameworks */,
+				EA44AC1526B99CB0002C5A5D /* Resources */,
+				A99EF85D174CFF3CFC84A2B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "appman-test";
+			productName = "appman-test";
+			productReference = EA44AC1726B99CB0002C5A5D /* appman-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA44AC2C26B99CB3002C5A5D /* appman-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA44AC4426B99CB3002C5A5D /* Build configuration list for PBXNativeTarget "appman-testTests" */;
+			buildPhases = (
+				A95D7473DC543B83758F411F /* [CP] Check Pods Manifest.lock */,
+				EA44AC2926B99CB3002C5A5D /* Sources */,
+				EA44AC2A26B99CB3002C5A5D /* Frameworks */,
+				EA44AC2B26B99CB3002C5A5D /* Resources */,
+				74C4F58F1BEDE1148FD3E801 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA44AC2F26B99CB3002C5A5D /* PBXTargetDependency */,
+			);
+			name = "appman-testTests";
+			productName = "appman-testTests";
+			productReference = EA44AC2D26B99CB3002C5A5D /* appman-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA44AC3726B99CB3002C5A5D /* appman-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA44AC4726B99CB3002C5A5D /* Build configuration list for PBXNativeTarget "appman-testUITests" */;
+			buildPhases = (
+				5DC31AC62CF3AACF6E5F580E /* [CP] Check Pods Manifest.lock */,
+				EA44AC3426B99CB3002C5A5D /* Sources */,
+				EA44AC3526B99CB3002C5A5D /* Frameworks */,
+				EA44AC3626B99CB3002C5A5D /* Resources */,
+				6D9D6574CF247C2BD7BD8E3E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA44AC3A26B99CB3002C5A5D /* PBXTargetDependency */,
+			);
+			name = "appman-testUITests";
+			productName = "appman-testUITests";
+			productReference = EA44AC3826B99CB3002C5A5D /* appman-testUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA44AC0F26B99CB0002C5A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EA44AC1626B99CB0002C5A5D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EA44AC2C26B99CB3002C5A5D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EA44AC1626B99CB0002C5A5D;
+					};
+					EA44AC3726B99CB3002C5A5D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EA44AC1626B99CB0002C5A5D;
+					};
+				};
+			};
+			buildConfigurationList = EA44AC1226B99CB0002C5A5D /* Build configuration list for PBXProject "appman-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA44AC0E26B99CB0002C5A5D;
+			productRefGroup = EA44AC1826B99CB0002C5A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA44AC1626B99CB0002C5A5D /* appman-test */,
+				EA44AC2C26B99CB3002C5A5D /* appman-testTests */,
+				EA44AC3726B99CB3002C5A5D /* appman-testUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA44AC1526B99CB0002C5A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA44AC2726B99CB2002C5A5D /* LaunchScreen.storyboard in Resources */,
+				EA44AC2426B99CB2002C5A5D /* Assets.xcassets in Resources */,
+				EA44AC7526B9B638002C5A5D /* Cards.json in Resources */,
+				EA44AC2226B99CB0002C5A5D /* Main.storyboard in Resources */,
+				EA44AC6226B9A044002C5A5D /* CardListCell.xib in Resources */,
+				EA44AC9026BA6F44002C5A5D /* ScoreBarView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA44AC2B26B99CB3002C5A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA44AC3626B99CB3002C5A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060BD13F9ECCB33775F1C88F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appman-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DC31AC62CF3AACF6E5F580E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appman-test-appman-testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D9D6574CF247C2BD7BD8E3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appman-test-appman-testUITests/Pods-appman-test-appman-testUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appman-test-appman-testUITests/Pods-appman-test-appman-testUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appman-test-appman-testUITests/Pods-appman-test-appman-testUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C4F58F1BEDE1148FD3E801 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appman-testTests/Pods-appman-testTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appman-testTests/Pods-appman-testTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appman-testTests/Pods-appman-testTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95D7473DC543B83758F411F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appman-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99EF85D174CFF3CFC84A2B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appman-test/Pods-appman-test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appman-test/Pods-appman-test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appman-test/Pods-appman-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA44AC1326B99CB0002C5A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA44AC8226B9BCF1002C5A5D /* ThreadHelper.swift in Sources */,
+				EA44AC6026B9A03A002C5A5D /* CardCellViewModel.swift in Sources */,
+				EA44AC5E26B9A019002C5A5D /* CardListCell.swift in Sources */,
+				EA44AC5526B99E23002C5A5D /* CardListViewController.swift in Sources */,
+				EA44AC6C26B9B3DD002C5A5D /* CardObject.swift in Sources */,
+				EA44AC7026B9B4DD002C5A5D /* WeaknessesObject.swift in Sources */,
+				EA44AC9326BA7FE9002C5A5D /* ValueObject.swift in Sources */,
+				EA44AC6526B9A182002C5A5D /* UIColor+Extension.swift in Sources */,
+				EA44AC8E26BA6F3A002C5A5D /* ScoreBarViewModel.swift in Sources */,
+				EA44AC5326B99E23002C5A5D /* MyPokedexViewModel.swift in Sources */,
+				EA44AC1B26B99CB0002C5A5D /* AppDelegate.swift in Sources */,
+				EA44AC5426B99E23002C5A5D /* MyPokedexViewController.swift in Sources */,
+				EA44AC7B26B9B739002C5A5D /* NetworkActivityChangeType.swift in Sources */,
+				EA44AC6E26B9B482002C5A5D /* AttacksObject.swift in Sources */,
+				EA44AC7726B9B6AA002C5A5D /* NetworkManager.swift in Sources */,
+				EA44AC6726B9A6BF002C5A5D /* UIImage+Extension.swift in Sources */,
+				EA44AC1D26B99CB0002C5A5D /* SceneDelegate.swift in Sources */,
+				EA44AC8026B9B91D002C5A5D /* CardAPIs.swift in Sources */,
+				EA44AC7926B9B6F5002C5A5D /* Networkable.swift in Sources */,
+				EA44AC8426B9C0D7002C5A5D /* Data+Extension.swift in Sources */,
+				EA44AC7E26B9B849002C5A5D /* CardProvider.swift in Sources */,
+				EA44AC8C26BA6F32002C5A5D /* ScoreBarView.swift in Sources */,
+				EA44AC5626B99E23002C5A5D /* CardListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA44AC2926B99CB3002C5A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA44AC3226B99CB3002C5A5D /* appman_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA44AC3426B99CB3002C5A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA44AC3D26B99CB3002C5A5D /* appman_testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA44AC2F26B99CB3002C5A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA44AC1626B99CB0002C5A5D /* appman-test */;
+			targetProxy = EA44AC2E26B99CB3002C5A5D /* PBXContainerItemProxy */;
+		};
+		EA44AC3A26B99CB3002C5A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA44AC1626B99CB0002C5A5D /* appman-test */;
+			targetProxy = EA44AC3926B99CB3002C5A5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA44AC2026B99CB0002C5A5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA44AC2126B99CB0002C5A5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA44AC2526B99CB2002C5A5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA44AC2626B99CB2002C5A5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA44AC3F26B99CB3002C5A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA44AC4026B99CB3002C5A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA44AC4226B99CB3002C5A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F48E2169F887FE01AE4BE01 /* Pods-appman-test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BC9WB7C77;
+				INFOPLIST_FILE = "appman-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yanika.appman-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "appman-test/Utils/Appman-Test-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA44AC4326B99CB3002C5A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478926B6B98E69B1465CF44D /* Pods-appman-test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BC9WB7C77;
+				INFOPLIST_FILE = "appman-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yanika.appman-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "appman-test/Utils/Appman-Test-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA44AC4526B99CB3002C5A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A2F9473A705262C6CC467C /* Pods-appman-testTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BC9WB7C77;
+				INFOPLIST_FILE = "appman-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yanika.appman-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appman-test.app/appman-test";
+			};
+			name = Debug;
+		};
+		EA44AC4626B99CB3002C5A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45767DFA3ABD34218350635 /* Pods-appman-testTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BC9WB7C77;
+				INFOPLIST_FILE = "appman-testTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yanika.appman-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appman-test.app/appman-test";
+			};
+			name = Release;
+		};
+		EA44AC4826B99CB3002C5A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDAEABDB5861A868090486B /* Pods-appman-test-appman-testUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BC9WB7C77;
+				INFOPLIST_FILE = "appman-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yanika.appman-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "appman-test";
+			};
+			name = Debug;
+		};
+		EA44AC4926B99CB3002C5A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7660B8C466F43E777890AE1C /* Pods-appman-test-appman-testUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BC9WB7C77;
+				INFOPLIST_FILE = "appman-testUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.yanika.appman-testUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "appman-test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA44AC1226B99CB0002C5A5D /* Build configuration list for PBXProject "appman-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA44AC3F26B99CB3002C5A5D /* Debug */,
+				EA44AC4026B99CB3002C5A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA44AC4126B99CB3002C5A5D /* Build configuration list for PBXNativeTarget "appman-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA44AC4226B99CB3002C5A5D /* Debug */,
+				EA44AC4326B99CB3002C5A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA44AC4426B99CB3002C5A5D /* Build configuration list for PBXNativeTarget "appman-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA44AC4526B99CB3002C5A5D /* Debug */,
+				EA44AC4626B99CB3002C5A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA44AC4726B99CB3002C5A5D /* Build configuration list for PBXNativeTarget "appman-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA44AC4826B99CB3002C5A5D /* Debug */,
+				EA44AC4926B99CB3002C5A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA44AC0F26B99CB0002C5A5D /* Project object */;
+}

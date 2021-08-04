@@ -1,0 +1,6 @@
+framework module Pods_appman_test_appman_testUITests {
+  umbrella header "Pods-appman-test-appman-testUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

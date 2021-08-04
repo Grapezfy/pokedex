@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-appman-testTests/Pods-appman-testTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework
+${BUILT_PRODUCTS_DIR}/Quick/Quick.framework
